@@ -7,11 +7,16 @@ File - `AMD.csv`: annual mortality rate (%/yr) in each locality, with environmen
 
 File - `AMR.csv`: annual mean mortality (%/yr) in each locality, with environmental variables during the disease period attached.
 
-List of climatic variables:
+List of variables:
 
-* `T78max` - maximum temperature from July to August (degree C)
-* `T1min` - January minimum temperature (degree C)
-* `P78` - precipitation from July to August (mm)
-* `P456` - precipitation from April to June (mm)
+* `Obs.year` - observation year
+* `Length` - length of the period (yr) when disease progresses on the research site
+* `LngLat` - longitude and latitude
+* `T35` - mean spring (March-May) temperature (degree C)
+* `P35` - spring precipitation (mm)
+* `T68max` - maximum summer (June-August) temperature (degree C)
+* `P68` - summar precipitation (mm)
+* `T911` - mean autumn (September-November) precipitation (mm)
+* `T122min` - minimum winter (December-February) temperature (degree C)
 
 The code file applies a simple linear regression on the data.
